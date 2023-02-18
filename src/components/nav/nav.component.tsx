@@ -1,9 +1,23 @@
 import React from 'react';
 
-import { Container } from './nav.styled';
+import { NavLinks } from './nav.constants';
+import {
+  Container,
+  LinkList,
+  LinkItem,
+  StyledLink,
+} from './nav.styled';
 
 export const Nav = () => (
   <Container>
-    Nav
+    <LinkList>
+      {NavLinks.map((link) => (
+        <LinkItem key={link.path}>
+          <StyledLink to={link.path} activeClassName="active">
+            {link.label}
+          </StyledLink>
+        </LinkItem>
+      ))}
+    </LinkList>
   </Container>
 );

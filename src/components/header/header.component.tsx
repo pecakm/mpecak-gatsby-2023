@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Path } from '../../enums/path.enum';
+
 import {
   Container,
   Link,
@@ -9,7 +11,7 @@ import {
 
 export const Header = () => (
   <Container>
-    <Link href="/">
+    <Link href={Path.Home}>
       <Title>Mikołaj Pęcak</Title>
       <Subtitle>Programowanie z pasji</Subtitle>
     </Link>

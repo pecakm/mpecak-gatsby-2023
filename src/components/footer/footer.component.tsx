@@ -1,10 +1,10 @@
 import React from 'react';
 
+import { ExternalLink, Separator } from '../../styles/styledComponents';
+
 import {
   Container,
-  Separator,
   Text,
-  Link,
   Quot,
   Breakline,
   Dash,
@@ -16,7 +16,9 @@ export const Footer = () => (
     <Text>
       Copyright ©
       {' '}
-      <Link href="https://itpulse.pl" target="_blank" rel="noopener noreferrer">IT Pulse</Link>
+      <ExternalLink href="https://itpulse.pl" target="_blank" rel="noopener noreferrer">
+        IT Pulse
+      </ExternalLink>
       {' '}
       2023
       <Breakline />

@@ -9,7 +9,7 @@ export const Container = styled.header`
   background-image: url(${BgImg});
   padding: 32px ${EdgeMargin.ExtraSmall};
 
-  @media ${Breakpoint.Small} {
+  ${Breakpoint.Small} {
     padding: 64px ${EdgeMargin.ExtraSmall};
   }
 `;

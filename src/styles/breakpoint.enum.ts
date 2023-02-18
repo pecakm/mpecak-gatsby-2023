@@ -1,3 +1,3 @@
 export enum Breakpoint {
-  Small = 'min-width: 600px',
+  Small = '@media (min-width: 600px)',
 }
