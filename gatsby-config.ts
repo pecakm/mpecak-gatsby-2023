@@ -27,6 +27,27 @@ const config: GatsbyConfig = {
         exclude: ['node_modules', 'bower_components', '.cache', 'public'],
       },
     },
+    {
+      resolve: 'gatsby-plugin-styled-components',
+      options: {},
+    },
+    {
+      resolve: 'gatsby-omni-font-loader',
+      options: {
+        enableListener: true,
+        preconnect: ['https://fonts.googleapis.com', 'https://fonts.gstatic.com'],
+        web: [
+          {
+            name: 'Roboto',
+            file: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap',
+          },
+          {
+            name: 'Racing Sans One',
+            file: 'https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap',
+          },
+        ],
+      },
+    },
   ],
 };
 

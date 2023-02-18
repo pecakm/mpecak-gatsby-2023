@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { Layout } from '../components/layout/layout.component';
-import { Container } from '../pageStyles/index.styled';
+import { Container } from '../pageStyles/cv.styled';
 
-const IndexPage = () => {
-  const title = 'Index Page';
+const CVPage = () => {
+  const title = 'CV Page';
 
   return (
     <Layout>
@@ -15,6 +15,6 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <title>CV Page</title>;
 
-export default IndexPage;
+export default CVPage;

@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { Layout } from '../components/layout/layout.component';
-import { Container } from '../pageStyles/index.styled';
+import { Container } from '../pageStyles/hobby.styled';
 
-const IndexPage = () => {
-  const title = 'Index Page';
+const HobbyPage = () => {
+  const title = 'Hobby Page';
 
   return (
     <Layout>
@@ -15,6 +15,6 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <title>Hobby Page</title>;
 
-export default IndexPage;
+export default HobbyPage;
