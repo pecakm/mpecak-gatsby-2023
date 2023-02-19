@@ -20,6 +20,7 @@
     "gatsby": "^5.6.0",
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-image": "^3.6.0",
+    "gatsby-plugin-manifest": "^5.6.0",
     "gatsby-plugin-sharp": "^5.6.0",
     "gatsby-plugin-styled-components": "^6.6.0",
     "gatsby-plugin-transition-link": "^1.20.5",
