@@ -8,11 +8,11 @@ import { Nav } from '../nav/nav.component';
 import { Container, PageWrapper, TitleWrapper } from './layout.styled';
 import { LayoutProps } from './layout.types';
 
-export const Layout = ({ children, title }: LayoutProps) => (
+export const Layout = ({ children, title, isHomePage }: LayoutProps) => (
   <Container>
     <Header />
     <Nav />
-    <PageWrapper>
+    <PageWrapper isHomePage={!!isHomePage}>
       {!!title && (
         <TitleWrapper>
           <SectionTitle>{title}</SectionTitle>

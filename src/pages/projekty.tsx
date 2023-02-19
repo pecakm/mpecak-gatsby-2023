@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Layout } from '../components/layout/layout.component';
+import { PageTitle } from '../components/pageTitle/pageTitle.component';
 import { ProjectItem } from '../components/projectItem/projectItem.component';
 import { CodeProjects, WordPressProjects } from '../content/projekty.content';
 import { Container, Text, SectionTitleWrapper } from '../pageStyles/projekty.styled';
@@ -31,6 +32,6 @@ const ProjectsPage = () => (
   </Layout>
 );
 
-// export const Head = () => <title>Projects Page</title>;
+export const Head = () => <PageTitle title="Projekty" />;
 
 export default ProjectsPage;

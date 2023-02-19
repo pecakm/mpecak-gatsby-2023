@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
-import { Color } from '../styles/color.enum';
+import { Text } from '../styles/styledComponents';
 
 export const Container = styled.div``;
 
-export const CVSectionTitle = styled.p`
-  font-size: 1.5rem;
-  color: ${Color.Link};
-  margin-top: 40px;
-  margin-bottom: 20px;
+export const ItemContainer = styled.div`
+  margin-top: 16px;
+`;
+
+export const Bold = styled(Text)`
+  font-weight: 700;
 `;

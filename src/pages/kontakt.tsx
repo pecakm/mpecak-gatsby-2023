@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Layout } from '../components/layout/layout.component';
+import { PageTitle } from '../components/pageTitle/pageTitle.component';
 import { Bold, Container, Text } from '../pageStyles/kontakt.styled';
 import { ExternalLink } from '../styles/styledComponents';
 
@@ -33,6 +34,6 @@ const ContactPage = () => (
   </Layout>
 );
 
-// export const Head = () => <title>Contact Page</title>;
+export const Head = () => <PageTitle title="Kontakt" />;
 
 export default ContactPage;

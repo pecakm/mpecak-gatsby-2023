@@ -21,7 +21,7 @@ export const CVJobs = [{
 }, {
   date: 'maj 2013 - październik 2016',
   position: 'Inżynier wyścigowy',
-  company: 'AMO Sportsystem',
+  company: 'AMO Racing Team',
   description: 'Praca z młodymi zawodnikami w sporcie kartingowym, mechanik, trener, analityk telemetrii',
 }, {
   date: 'grudzień 2015 - styczeń 2016',
@@ -34,3 +34,46 @@ export const CVJobs = [{
   company: 'Interbell Sp. z o.o.',
   description: 'Obsługa klienta w serwisie telefonów komórkowych, pomoc w dziale księgowości, prowadzenie profilu firmy na portalu Facebook',
 }];
+
+export const CVTechStack = [
+  'ReactJS',
+  'Redux-Saga',
+  'Styled Components',
+  'Responsive UI',
+  'React Hooks',
+  'TypeScript',
+  'Dodatkowo podstawy Express.js, MongoDB, Strapi, Firebase',
+  'Inne: GIT, Jira, podstawy WordPress',
+];
+
+export const CVLanguages = ['Język angielski: poziom B2'];
+
+export const CVEducation = [{
+  date: 'październik 2016 - marzec 2020',
+  university: 'Collegium Da Vinci',
+  subject: 'informatyka, studia inżynierskie',
+  specialization: 'Aplikacje internetowe i mobilne',
+  degree: 'inżynier',
+}, {
+  date: 'wrzesień 2011 - czerwiec 2016',
+  university: 'Uniwersytet Ekonomiczny w Poznaniu',
+  subject: 'zarządzanie',
+  specialization: 'zarządzanie przedsiębiorstwami',
+  degree: 'licencjat',
+}];
+
+export const CVActivities = [{
+  date: 'czerwiec 2002 - obecnie',
+  place: 'Automobilklub Leszczyński',
+  position: 'Członek Automobilklubu Leszczyńskiego, członek Kadry Narodowej Polskiego Związku Motorowego w Sporcie Kartingowym w latach 2005 - 2010',
+}, {
+  date: 'wrzesień 2018 - marzec 2020',
+  place: 'Collegium Da Vinci',
+  position: 'Członek komisji dyscyplinarnej CDV',
+}, {
+  date: 'styczeń 2017 - czerwiec 2017',
+  place: 'Collegium Da Vinci',
+  position: 'Czynna pomoc przy tworzeniu start-upowego projektu aplikacji internetowej (wykorzystanie technologii Ruby on Rails oraz Angular2',
+}];
+
+export const CVHobbies = ['Motorsport (głównie wyścigi samochodowe, karting, żużel)'];

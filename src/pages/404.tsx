@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout } from '../components/layout/layout.component';
+import { PageTitle } from '../components/pageTitle/pageTitle.component';
 import { Path } from '../enums/path.enum';
 
 import { Container, StyledLink } from '../pageStyles/404.styled';
@@ -17,6 +18,6 @@ const NotFoundPage = () => (
   </Layout>
 );
 
-// export const Head = () => <title>Not found</title>;
+export const Head = () => <PageTitle title="Programowanie z pasji" />;
 
 export default NotFoundPage;

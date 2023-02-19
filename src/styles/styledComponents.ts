@@ -1,5 +1,4 @@
-import styled, { css } from 'styled-components';
-import { Link } from 'gatsby';
+import styled from 'styled-components';
 
 import { Color } from './color.enum';
 
@@ -13,7 +12,14 @@ export const SectionTitle = styled.h3`
   font-size: 1.75rem;
 `;
 
-const linkStyles = css`
+export const SectionSubtitle = styled.p`
+  font-size: 1.5rem;
+  color: ${Color.Link};
+  margin-top: 40px;
+  margin-bottom: 20px;
+`;
+
+export const ExternalLink = styled.a`
   color: ${Color.Link};
   text-decoration: none;
 
@@ -21,14 +27,6 @@ const linkStyles = css`
     color: ${Color.LinkHover};
     text-decoration: underline;
   }
-`;
-
-export const InternalLink = styled(Link)`
-  ${linkStyles}
-`;
-
-export const ExternalLink = styled.a`
-  ${linkStyles}
 `;
 
 export const Text = styled.p`
