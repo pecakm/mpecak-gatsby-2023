@@ -2,10 +2,10 @@
   "name": "mpecak",
   "version": "1.0.0",
   "private": true,
-  "description": "mpecak",
+  "description": "Mikołaj Pęcak - Programowanie z pasji",
   "author": "Mikołaj Pęcak",
   "keywords": [
-    "gatsby"
+    "programowanie", "rozwój", "technologie", "pasja", "informatyka"
   ],
   "scripts": {
     "develop": "gatsby develop",
