@@ -28,7 +28,7 @@ export const CodeProjects = [{
   description: 'Aplikacja internetowa do zapisywania notatek (JS / Firebase)',
 }, {
   path: 'https://bitbucket.org/pecakm/dailynote-ios',
-  title: 'DailyNote',
+  title: 'DailyNote iOS',
   description: 'Aplikacja mobilna do zapisywania notatek (Swift / Firebase)',
 }, {
   path: 'https://bitbucket.org/pecakm/citylist-backend',
