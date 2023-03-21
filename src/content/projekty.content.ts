@@ -45,24 +45,24 @@ export const CodeProjects = [{
 }];
 
 export const WordPressProjects = [{
-  path: 'http://bernacik.pl (2017)',
-  title: 'bernacik.pl',
+  path: 'http://bernacik.pl',
+  title: 'bernacik.pl (2017)',
   description: 'Strona internetowa - Kierowca wyścigowy',
 }, {
-  path: 'https://dynamech.pl (2017)',
-  title: 'dynamech.pl',
+  path: 'https://dynamech.pl',
+  title: 'dynamech.pl (2017)',
   description: 'Strona internetowa - Diagnostyka i naprawa turbosprężarek',
 }, {
-  path: 'http://wtr.com.pl (2018)',
-  title: 'WTR Motorsport',
+  path: 'http://wtr.com.pl',
+  title: 'WTR Motorsport (2018)',
   description: 'Strona internetowa - Zespół wyścigowy',
 }, {
-  path: 'http://arthouse-studio.pl (2018)',
-  title: 'Art House Studio',
+  path: 'http://arthouse-studio.pl',
+  title: 'Art House Studio (2018)',
   description: 'Strona internetowa - Projektowanie wnętrz i meble kuchenne',
 }, {
-  path: 'https://itpulse.pl/interbell (2017)',
-  title: 'Interbell',
+  path: 'https://itpulse.pl/interbell',
+  title: 'Interbell (2017)',
   description: 'Strona internetowa - Propozycja odnowy strony przedsiębiorstwa',
 }, {
   path: 'https://apartamentynowoczesne.pl',
